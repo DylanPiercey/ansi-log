@@ -28,7 +28,7 @@ Isomorphic logging with [ANSI styles](See https://en.wikipedia.org/wiki/ANSI_esc
 
 ```console
 npm install ansi-log
-s```
+```
 
 # Example
 
