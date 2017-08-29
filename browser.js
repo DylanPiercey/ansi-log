@@ -100,7 +100,7 @@ module.exports = function ansiLog (str, method) {
     } else if (offCode) {
       // On closing tags check the stack for the current group and remove css at the last position.
       const stack = stacks[offCode]
-      if (stack) curCSS.splice(stacks[offCode].pop(), 1)
+      if (stack) curCSS.splice(stack.pop(), 1)
     } else {
       // If we got an unknown style just ignore it.
       return ''
