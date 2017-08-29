@@ -22,7 +22,7 @@
   </a>
 </h1>
 
-Isomorphic logging with [ANSI styles](See https://en.wikipedia.org/wiki/ANSI_escape_code#graphics).
+Isomorphic logging with [ANSI styles](https://en.wikipedia.org/wiki/ANSI_escape_code#graphics).
 
 # Installation
 
@@ -34,11 +34,11 @@ npm install ansi-log
 
 ```javascript
 import chalk from 'chalk'
-import ansiLog from 'ansi-log'
+import log from 'ansi-log'
 
-ansiLog(chalk.red('Hello') + chalk.blue('World')) // Console log with appropriate colors.
-ansiLog('MyMessage', 'error') // Uses console.error
-ansiLog('MyMessage', 'warn') // Uses console.warn
+log(chalk.red('Hello') + chalk.blue('World')) // Console log with appropriate colors.
+log('MyMessage', 'error') // Uses console.error
+log('MyMessage', 'warn') // Uses console.warn
 ```
 
 ### Contributions
