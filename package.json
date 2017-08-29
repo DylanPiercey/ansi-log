@@ -1,0 +1,37 @@
+{
+  "name": "ansi-log",
+  "description": "console.log with ANSI in the browser or server.",
+  "version": "1.0.1",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "browser": "browser.js",
+  "bugs": {
+    "url": "https://github.com/DylanPiercey/ansi-log/issues"
+  },
+  "dependencies": {
+    "ansi-regex": "^3.0.0"
+  },
+  "homepage": "https://github.com/DylanPiercey/ansi-log#readme",
+  "keywords": [
+    "ansi",
+    "browser",
+    "console.log",
+    "isomorphic",
+    "log",
+    "logging",
+    "universal"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DylanPiercey/ansi-log.git"
+  },
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
+}
